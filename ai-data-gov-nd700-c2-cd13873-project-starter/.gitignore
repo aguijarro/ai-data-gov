@@ -1,5 +1,36 @@
 .DS_Store
 
-# Notebook runtime outputs
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de logs y bases de datos temporales
+*.log
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias y distribución
+*.egg-info/
+dist/
+build/
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Salidas de notebooks y archivos temporales
 *.png
 ai_systems_risk_classification.csv
