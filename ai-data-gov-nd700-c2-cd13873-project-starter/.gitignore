@@ -1,9 +1,16 @@
 .DS_Store
 
-# Entornos virtuales
+# Ignora el entorno virtual en la raíz
 .venv/
+
+# Ignora entornos virtuales en cualquier subcarpeta
+**/.venv/
+
+# Otros entornos virtuales comunes
 venv/
 env/
+**/venv/
+**/env/
 
 # Archivos de configuración de editores
 .vscode/
